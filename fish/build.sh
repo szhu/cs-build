@@ -2,7 +2,7 @@
 
 source "$(dirname "$0")/../preamble.sh"
 
-FISH_VERSION=2.1.0
+FISH_VERSION=2.3.1
 wget -O "fish-${FISH_VERSION}.tar.gz" "http://fishshell.com/files/2.1.0/fish-${FISH_VERSION}.tar.gz"
 rm -rf "fish-${FISH_VERSION}"
 tar -xf "fish-${FISH_VERSION}.tar.gz"
